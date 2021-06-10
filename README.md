@@ -17,18 +17,18 @@
    * Do not Close Powershell window until "Building EXE from EXE-00.toc completed successfully" Message not shows.     
 
 
+   Steps:->
 
-1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller [run->    pip install pyinstaller]
+
+1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller [run-> `  pip install pyinstaller   `]
 
 2. Create an .ICO [icon ] file, Save Python script with all the resources in the same folder.
 
 3. Open folder and press 'Shift + right click' select and run ' PowerShell  window.'
 
-3. Run this line->     pyinstaller -F -i "myicon.ico" myscriptname.py 
-
+3. Run this line->   `  pyinstaller -F -i "myicon.ico" myscriptname.py  `
 
                                             ^              ^ 
-                                            |              |
                                             |              | 
                                     (icon file name ) (Python file name)  
 
@@ -37,9 +37,7 @@
 5. Open Inno setup to make .exe file which is Installable /Executable in Windows PC, select ‘ Create a new script file using script       
    Wizard ' and browse to select your application. 
 
-
 6. Select all required things for your application # Icon of setup file # Before installation document # Licence .etc 
    
-
 7. Click  ' Yes ' to all, in the End, go to Output Folder get 'setup file'  of application and click on open  to install.
 
