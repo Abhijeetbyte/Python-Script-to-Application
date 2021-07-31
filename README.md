@@ -3,10 +3,10 @@
 "To create an .exe [application] file from a python script 
 
 
-   Precautions :->
+  # Precautions :->
 
                 
-   * Save the resources in one folder, Do not save the folder inside another folder [ It will not give full                
+   * Save the resources in one folder, Do not save the folder inside another folder [ It will not give full
      
      permission to execute the commands. # ParentContainsErrorRecordException]
   
@@ -17,20 +17,30 @@
    * Do not Close Powershell window until "Building EXE from EXE-00.toc completed successfully" Message not shows.     
 
 
-   Steps:->
+  # Steps:->
 
 
-1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller [run-> `  pip install pyinstaller   `]
+1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller.
+
+   Run this line-> 
+   
+ *                                pip install pyinstaller   `
 
 2. Create an .ICO [icon ] file, Save Python script with all the resources in the same folder.
 
-3. Open folder and press 'Shift + right click' select and run ' PowerShell  window.'
+3. Open folder and press 'Shift + right click' select and run 'Open PowerShell window'
 
-3. Run this line->   `  pyinstaller -F -i "myicon.ico" myscriptname.py  `
+   Run this line-> 
+   
+ *                                pyinstaller -F -i "myicon.ico" myscriptname.py
 
-                                            ^              ^ 
-                                            |              | 
-                                    (icon file name ) (Python file name)  
+
+ *myicon.ico = icon file name  myscriptname.py = Python file name 
+   
+   
+3. 2  if you wants your Executable in one file and no console runnig  behind your application then go with below line 
+  
+ *                                 pyinstaller -F -i "myicon.ico" myscriptname.py --onefile --noconsole
 
 4. Go to " dist " folder and get application file, delete remain file except for resources.
 
