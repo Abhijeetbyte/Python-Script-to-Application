@@ -1,9 +1,9 @@
 # Python-Script-to-Application
 
-"To create an .exe [application] file from a python script 
+To create an .exe [application] file from a python script 
 
 
-  # Precautions :->
+  # Precautions :
 
                 
    * Save the resources in one folder, Do not save the folder inside another folder [ It will not give full
@@ -17,7 +17,7 @@
    * Do not Close Powershell window until "Building EXE from EXE-00.toc completed successfully" Message not shows.     
 
 
-  # Steps:->
+  # Steps :
 
 
 1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller.
@@ -35,12 +35,13 @@
  *                                pyinstaller -F -i "myicon.ico" myscriptname.py
 
 
- *myicon.ico = icon file name  myscriptname.py = Python file name 
+ * [ myicon.ico = icon file name  myscriptname.py = Python file name ]
    
    
-3. 2  if you wants your Executable in one file and no console runnig  behind your application then go with below line 
+3. 1 if you want your executable application with resources in one file and no console running  behind your
+     application then go with the below line 
   
- *                                 pyinstaller -F -i "myicon.ico" myscriptname.py --onefile --noconsole
+ *                                pyinstaller -F -i "myicon.ico" myscriptname.py --onefile --noconsole
 
 4. Go to " dist " folder and get application file, delete remain file except for resources.
 
