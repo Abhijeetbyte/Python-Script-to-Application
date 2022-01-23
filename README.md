@@ -38,10 +38,16 @@ To create an .exe [application] file from a python script
  * [ myicon.ico = icon file name  myscriptname.py = Python file name ]
    
    
-3. 1 if you want your executable application with resources in one file and no console running  behind your
+3. 1 if you want your executable application with no console running  behind your
      application then go with the below line 
   
  *                                pyinstaller -F -i "myicon.ico" myscriptname.py --onefile --noconsole
+ *                                
+                                 
+3. 2 if you want your executable application with additional file (--add-data command) and no console running  behind your
+     application then go with the below line 
+  
+ *                  pyinstaller -F -i "myicon.ico"--add-data "AdditionalImage.png;." myscriptname.py --noconsole                           
 
 4. Go to " dist " folder and get application file, delete remain file except for resources.
 
