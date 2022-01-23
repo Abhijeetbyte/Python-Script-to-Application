@@ -20,7 +20,7 @@ To create an .exe [application] file from a python script
   # Steps :
 
 
-1. Install ' Inno Setup Compiler ' [free application ] and Pyinstaller.
+1. Install [Inno Setup Compiler](https://github.com/4BH1J337/Python-Script-to-Application/raw/main/innosetup-6.1.2.exe) free application and Pyinstaller.
 
    Run this line-> 
    
