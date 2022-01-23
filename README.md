@@ -24,7 +24,7 @@ To create an .exe [application] file from a python script
 
    Run this line-> 
    
- *                                pip install pyinstaller   `
+ *                                pip install pyinstaller   
 
 2. Create an .ICO [icon ] file, Save Python script with all the resources in the same folder.
 
