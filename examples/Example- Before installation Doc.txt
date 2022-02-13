@@ -5,9 +5,7 @@ Cylinder volume calculator enables calculating the volume of that solid. Whether
 The formula for the volume of a cylinder is height x π x (diameter / 2)2, where (diameter / 2) is the radius of the base (d = 2 x r), so another way to write it is height x π x radius2
 
 Application Version 1.0
-
-Regards 
-
-Abhijeet kumar[Application Developer]
  
-Abhijeetkr.sci@gmail.com 
+Copyright © Abhijeet kumar. All rights reserved.
+
+Licensed under the MIT License.
