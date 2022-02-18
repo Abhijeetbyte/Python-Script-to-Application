@@ -82,5 +82,5 @@ pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --
 ### Refrences
 * [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/operating-mode.html)
 * [Inno Setup Compiler](https://jrsoftware.org/isdl.php)</br>
-* Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Volume-Calculator/issues/new)</b>
+* Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Python-Script-to-Application/issues/new)</b>
  
