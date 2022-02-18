@@ -76,7 +76,7 @@ pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --
 
 6. Select all required things for your application such as Icon of setup file, Before installation document, Licence .etc 
    
-7. Click  **Yes** to all, in the end, go to Output Folder get **setup file**  of application and click on open to install.</br>
+7. Click  **Yes** to all, in the end go to Output Folder get **setup file**  of application and click on open to install.</br>
 
 **Yor're done !**</br>
 ### Refrences
