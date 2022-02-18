@@ -17,11 +17,12 @@
 
 ## Steps :
 
-1.Install **[Inno Setup Compiler](main/tools/innosetup-6.1.2.exe)** free application and Pyinstaller. </br>
+1.Install **[Inno Setup Compiler](tools/innosetup-6.1.2.exe)** free application and Pyinstaller. </br>
 
  Open **windows shell** and run :
    
 ```
+
  pip install pyinstaller   
  
 ```
@@ -34,6 +35,7 @@ Run below commnads:
 
 * If no custom icon file were used.
 ```
+
 pyinstaller myprogram.py
 
 ```
@@ -41,6 +43,7 @@ pyinstaller myprogram.py
 * With custom icon file **(-F -i "mylogo.ico" command)**
    
 ```
+
 pyinstaller -F -i "mylogo.ico" myprogram.py
 
 ```
@@ -50,6 +53,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py
 * If you want your executable application with no console running **(--noconsole command)** behind your application then go with the below line
   
 ```
+
 pyinstaller -F -i "mylogo.ico" myprogram.py --onefile --noconsole
 
 ```
@@ -57,6 +61,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py --onefile --noconsole
 * If you want your executable application with additional file **(--add-data command)** then go with the below line.
   
 ```
+
 pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --noconsole
 
 ```
