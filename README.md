@@ -35,6 +35,7 @@ Run below commnads:
 * If no custom icon file were used.
 ```
 pyinstaller myprogram.py
+
 ```
 
 * With custom icon file **(-F -i "mylogo.ico" command)**
@@ -57,6 +58,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py --onefile --noconsole
   
 ```
 pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --noconsole
+
 ```
 4. Go to **dist** folder and get application file, delete remain file except for resources.</br>
 
