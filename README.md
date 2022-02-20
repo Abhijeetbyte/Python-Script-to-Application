@@ -23,7 +23,7 @@
 3. Open folder and press 'Shift + right click' select **Open PowerShell window**.
 
 
-Run below commanads:
+Run below commands:
 
 * If no custom icon file were used.
 ```
@@ -104,5 +104,6 @@ Message not shows.</br>
 ### Refrences
 * [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/operating-mode.html)
 * [Inno Setup Compiler](https://jrsoftware.org/isdl.php)</br>
+* [Real Python](https://realpython.com/pyinstaller-python/#:~:text=PyInstaller%20supports%20making%20executables%20for,machine%20for%20each%20supported%20OS)
 * Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Python-Script-to-Application/issues/new)</b>
  
