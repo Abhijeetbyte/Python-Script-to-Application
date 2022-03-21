@@ -37,7 +37,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py
 * ( mylogo.ico = icon file name, myprogram.py = Python file name )
    
    
-* If you want your executable application with no console running **(--noconsole command)** behind your application then go with the below line.
+* If you want your executable application in one file **(--onefile command)** and no console running **(--noconsole command)** behind your application then go with the below line.
   
 ```
 
@@ -49,7 +49,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py --onefile --noconsole
   
 ```
 
-pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --noconsole
+pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --onefile --noconsole
 
 ```
 **4.** Go to **dist** folder and get application file, delete remain file except for resources.</br>
