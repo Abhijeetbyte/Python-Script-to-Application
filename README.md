@@ -57,7 +57,7 @@ pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --
 
   **Congratulations ! 🤩 you successfully created your standalone application.**</br>
 
-However if you want your application as Setup.exe then windows installer will extract the installation resources from itself and manage their installation directly.</br>
+However if you want your application as **setup.exe** then windows installer will extract the installation resources from itself and manage their installation directly.</br>
 
 **5.** Open Inno setup to make (.exe) file which is Installable/Executable in Windows PC, select **Create a new script file using Script Wizard** and browse to select your application.</br>
 
