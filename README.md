@@ -27,7 +27,7 @@ pyinstaller myprogram.py
 
 ```
 
-* With custom icon file **(-F -i "mylogo.ico" command)**.
+* With custom icon file **(-F -i " " command)**.
    
 ```
 
