@@ -55,13 +55,17 @@ pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --
 4. Go to **dist** folder and get application file, delete remain file except for resources.</br>
  
 
-  **🤩 Congratulations**, you successfully created your standalone application</br>
-  
+**Congratulations ! 🤩
+You successfully created your standalone application.**</br>
 
-However if you want your application as **setup.exe**, then windows installer will extract the installation resources from itself and manage their installation directly.</br>
+* However if you want your application as setup.exe, then windows installer will extract the installation resources from itself and manage their installation directly then go with the below steps.
+
+ 
+ 
 
 
-5. Open Inno setup to make (.exe) file which is Installable/Executable in PC, select Create a new script file using **Script Wizard** and browse to select your application.</br>
+
+5. Open Inno setup to make (.exe) file which is Installable/Executable in PC, select create a new script file using **Script Wizard** and browse to select your application.</br>
 
 
 6.  Select all required things for your application such as Icon of setup file, Before installation document, Licence .etc</br>
@@ -70,7 +74,7 @@ However if you want your application as **setup.exe**, then windows installer wi
 7. Click  **Yes** to all, in the end go to Output Folder get **setup file**  of application and click on open to install.</br>
 
 
-**You're done !**
+**You're done ! **
 
 ## Precautions :
 1. Save the resources in one folder, Do not save the folder inside another folder
