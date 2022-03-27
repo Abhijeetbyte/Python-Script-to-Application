@@ -74,7 +74,7 @@ You successfully created your standalone application.**</br>
 7. Click  **Yes** to all, in the end go to Output Folder get **setup file**  of application and click on open to install.</br>
 
 
-**You're done ! **
+**You're done !**
 
 ## Precautions :
 1. Save the resources in one folder, Do not save the folder inside another folder
