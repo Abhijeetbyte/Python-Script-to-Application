@@ -58,7 +58,7 @@ pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --
 **Congratulations ! 🤩
 You successfully created your standalone application.**</br>
 
-* However if you want your application as setup.exe, then windows installer will extract the installation resources from itself and manage their installation directly then go with the below steps.
+* However if you want your application as setup.exe, windows installer will extract the installation resources from itself and manage their installation directly then, go with the below steps.
 
  
  
@@ -97,7 +97,10 @@ Message not shows.</br>
 * [Pyinstaller](https://pyinstaller.readthedocs.io/en/stable/operating-mode.html)
 * [Inno Setup Compiler](https://jrsoftware.org/isdl.php)</br>
 * [Real Python](https://realpython.com/pyinstaller-python/#:~:text=PyInstaller%20supports%20making%20executables%20for,machine%20for%20each%20supported%20OS)
-* Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Python-Script-to-Application/issues/new)</b>
+
+Feel free to report <b>[issues](https://github.com/Abhijeetbyte/Python-Script-to-Application/issues/new)</b>
+
+
 
 
      
