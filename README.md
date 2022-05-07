@@ -37,7 +37,7 @@ pyinstaller -F -i "mylogo.ico" myprogram.py
 * ( mylogo.ico = icon file name, myprogram.py = Python file name )
    
    
-* If you want your executable application in one file **(--onefile command)** and no console running **(--noconsole command)** behind your application then go with the below line.
+* If you want your executable application in one file **(--onefile command)** and no console running **(--noconsole command)** behind your application then go with the below line. If your app requires Windows Administrator permission **(--uac-admin command)**
   
 ```
 
