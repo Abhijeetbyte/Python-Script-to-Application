@@ -1,68 +1,60 @@
 # Python Script to Application
 
 **To create an (.exe) executable application file from a python script**.
+<!-- Badge section -->
+![Languages](https://img.shields.io/badge/Python-FFD43B?plastic&logo=python&logoColor=blue)
+![OS](https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white)
+
+
 
 ## Steps :
 
 1. Install **[Inno Setup Compiler](tools/innosetup-6.1.2.exe)** free application and Pyinstaller. </br>
-
- Open **windows shell** and run :
+   - Your computer must be running Python3 or newer.
+  
+   Open **windows shell** and run :
    
 ```
-
- pip install pyinstaller   
- 
+pip install pyinstaller 
 ```
 2. Save Python script with all the resources in one folder.
 
-3. Open folder and press 'Shift + right click' select **Open PowerShell window**.
-
-
-Run below commands:
+3. Open folder and press 'Shift + right click' select **Open PowerShell window**.</br> 
+  
+   Run below commands:
 
 * If no custom icon file were used.
+
 ```
-
 pyinstaller myprogram.py
-
 ```
 
 * With custom icon file **(-F -i " " command)**.
    
 ```
-
 pyinstaller -F -i "mylogo.ico" myprogram.py
-
 ```
-* ( mylogo.ico = icon file name, myprogram.py = Python file name )
+   - ( mylogo.ico = icon file name, myprogram.py = Python file name )
    
    
-* If you want your executable application in one file **(--onefile command)** and no console running **(--noconsole command)** behind your application then go with the below line. If your app requires Windows Administrator permission **(--uac-admin command)**
+   
+* If you want your executable application in one file `--onefile` and no console running `--noconsole` behind your application then go with the below line. If your app requires Windows Administrator permission then use `--uac-admin` command
   
 ```
-
 pyinstaller -F -i "mylogo.ico" myprogram.py --onefile --noconsole
-
 ```
                                                         
-* If you want your executable application with additional file **(--add-data command)** then go with the below line.
+* If you want your executable application with additional file `--add-data` command, then go with the below line.
   
 ```
-
 pyinstaller -F -i "mylogo.ico"--add-data "Additionalimage.png;." myprogram.py --onefile --noconsole
-
 ```
-4. Go to **dist** folder and get application file, delete remain file except for resources.</br>
+
+4. Go to **dist** folder and get application file, delete remain file except for resources. </br>You successfully created your standalone application.</br>
  
 
-**Congratulations ! 🤩
-You successfully created your standalone application.**</br>
 
-* However if you want your application as setup.exe, windows installer will extract the installation resources from itself and manage their installation directly then, go with the below steps.
-
- 
- 
-
+* However if you want your application (.exe) as setup file, windows installer will extract the installation resources from itself and manage their installation directly then, go with the below steps.</br>
 
 
 5. Open Inno setup to make (.exe) file which is Installable/Executable in PC, select create a new script file using **Script Wizard** and browse to select your application.</br>
@@ -72,9 +64,10 @@ You successfully created your standalone application.**</br>
 
    
 7. Click  **Yes** to all, in the end go to Output Folder get **setup file**  of application and click on open to install.</br>
+  
+   
+   **You're done !**
 
-
-**You're done !**
 
 ## Precautions :
 1. Save the resources in one folder, Do not save the folder inside another folder
