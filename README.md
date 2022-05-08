@@ -5,7 +5,7 @@
 
 <!-- Badge section -->
 
-[![Documentation](https://img.shields.io/badge/Documentation-blue)](./docs/ONBOARDING.md)
+![Documentation](https://img.shields.io/badge/Documentation-blue)
 ![Languages](https://img.shields.io/badge/Python-FFD43B?plastic&logo=python&logoColor=blue)
 ![OS](https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white)
 
